@@ -135,7 +135,5 @@ Wire Wire Line
 Text Notes 6100 3950 0    60   ~ 0
 To Ground
 Text Notes 7550 7550 0    60   ~ 0
-EasyAmp      Clarence David Mebane (Digikutz)9@gmail.com
-Text Notes 10650 7650 0    60   ~ 0
-0.1a
+EasyAmp 0.1a  Clarence David Mebane (Digikutz)9@gmail.com
 $EndSCHEMATC
