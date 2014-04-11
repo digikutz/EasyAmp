@@ -1,0 +1,20 @@
+* Z:\home\ill\git\EasyAmp\EasyAmp2.asc
+M1 N003 N005 0 0 IRFZ44N
+R2 N002 N004 100R
+B2 N001 0 V=12v
+B1 N004 0 V=3v
+R4 N005 0 1000R
+R3 N001 N003 5R
+Q1 N005 N002 N001 0 2N3906
+.model NPN NPN
+.model PNP PNP
+.lib C:\Program Files\LTC\LTspiceIV\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Program Files\LTC\LTspiceIV\lib\cmp\standard.mos
+.tran .1
+* Tie drain to gnd!!!!!!!!!!!!
+* Load
+* Active LOW
+.backanno
+.end
